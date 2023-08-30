@@ -1,0 +1,111 @@
+.sec-contact{
+    min-height: 90vh;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.sec-contact .contact-row{
+    display: flex;
+    justify-content: center;
+}
+.sec-contact .contact{
+    min-height: 550px;
+    max-width: 550px;
+    border: 1px solid #111;
+    border-radius: 20px;
+    padding: 5px 20px 20px 30px;
+}
+.min-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.min-div-2{
+    padding-bottom: 15px;
+    border-bottom: 1px #828282 solid;
+    margin-bottom: 15px;
+}
+.min-div .mobile span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ac8c5b;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .5s ease all;
+
+}
+.min-div .mobile span:hover{
+    transform: scale(1.1);
+}
+.min-div .mobile p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #828282;
+    font-weight: 600;
+}
+.contact .p{
+    color: #828282;
+    font-size: 14px;
+    font-weight: 500;
+}
+.form{
+    max-width: 730px;
+    margin-left: 10px;
+    min-height: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.form .inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form .inputs input{
+   outline: none; 
+   padding: 15px 20px;
+   height: 60px;
+   border: #bebcb2 1px solid;
+   border-radius: 30px;
+   width: 30%;
+   background-color: #e9e7db;
+}
+.form .inputs input:focus{
+    border: #1976d2 2px solid;
+}
+.form .input{
+    outline: none; 
+    padding: 15px 20px;
+    height: 130px;
+    border: #bebcb2 1px solid;
+    border-radius: 20px;
+    width:100%;
+    background-color: #e9e7db;
+}
+.form .input:focus{
+    border: #1976d2 2px solid;
+}
+.form .supmit{
+    border: none;
+    outline: none;
+    margin-top: 18px;
+    padding: 8px 15px;
+    background-color: #92764e;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: .3s ease all;
+}
+.form .supmit:hover{
+    border: #92764e 1px solid;
+    color: #92764e;
+    background-color: transparent;
+}
